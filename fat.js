@@ -1,0 +1,19 @@
+
+function calc(){
+    var fat = document.getElementById('fatnum')
+    var res = document.getElementById('res')
+    if(fat.value == 0 ){
+        window.alert('[ERROR] verifique os dados e tente novamente')
+    }else if(fat.value == 1){
+        res.innerHTML= `o fatorial  de 1 é igual a ele mesmo'-'`
+    }else{ 
+        var f = Number(fat.value)
+        var soma = 1
+        for(var i = 2; i < f;i--){
+            soma*=f
+        }
+        }
+        res.innerHTML = `${soma}`
+       
+    }
+   

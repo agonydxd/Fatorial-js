@@ -17,8 +17,8 @@ function calc(){
             }else {
                 res.innerHTML += '1 ='
             }
-        }
+         }
         res.style.textAlign = 'center'
         res.innerHTML += ` ${soma}`
-        }
+    }
 }

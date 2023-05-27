@@ -47,9 +47,13 @@ input{
 input[type=number]{
     margin-left: -8px;
     text-align: left;
+    border: 2px solid black;
 }
 input[type=button]{
- margin-left: -10px;
+    margin-left: -10px;
+    border: 2px solid black;
+    background-color: rgb(176, 175, 175);
+
 }
 
 p{

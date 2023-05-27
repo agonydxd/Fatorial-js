@@ -6,10 +6,19 @@ function calc(){
     }else if(fat.value == 1){
         res.innerHTML= `o fatorial  de 1 é igual a ele mesmo'-'`
     }else{ 
+        var f = Number(fat.value)
         var soma = 1
-        for(var i = 1 ; i < f;i++){
-            soma*=i
+        res.innerHTML = `<p>O fatorial de ${f}:</p>`
+        
+        for(f;f > 0;f--){
+            soma*=f  
+            if(f != 1){
+                res.innerHTML += `${f} x `
+            }else {
+                res.innerHTML += '1 ='
+            }
         }
+        res.style.textAlign = 'center'
+        res.innerHTML += ` ${soma}`
         }
-        res.innerHTML = `${soma}`
-        }
+}

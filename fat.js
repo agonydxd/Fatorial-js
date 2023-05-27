@@ -1,4 +1,3 @@
-
 function calc(){
     var fat = document.getElementById('fatnum')
     var res = document.getElementById('res')
@@ -7,13 +6,10 @@ function calc(){
     }else if(fat.value == 1){
         res.innerHTML= `o fatorial  de 1 é igual a ele mesmo'-'`
     }else{ 
-        var f = Number(fat.value)
         var soma = 1
-        for(var i = 2; i < f;i--){
-            soma*=f
+        for(var i = 1 ; i < f;i++){
+            soma*=i
         }
         }
         res.innerHTML = `${soma}`
-       
-    }
-   
+        }

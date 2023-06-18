@@ -27,7 +27,7 @@ h1{
 section{
     background-color: white;
     width: 400px;
-    height: 240px;
+    height: auto;
     margin: auto;
     border-radius: 10px;
     box-shadow:  2px 3px 3px 3px #00000041;

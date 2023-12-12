@@ -1,2 +1,2 @@
 # Fatorial-js
- progaminha basico para resolver fatoriais de números 
+Progama basico para resolver fatoriais de números 
